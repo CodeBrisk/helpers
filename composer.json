@@ -1,6 +1,13 @@
 {
     "name": "codebrisk/helpers",
     "description": "Helper functions by CodeBrisk.com",
+        "keywords": [
+            "codebrisk",
+            "php",
+            "laravel",
+            "artisan"
+        ],        
+    "license": "MIT",
     "authors": [
         {
             "name": "Rizwan Aslam",
