@@ -1,0 +1,30 @@
+{
+    "name": "codebrisk/helpers",
+    "description": "Helper functions by CodeBrisk.com",
+    "authors": [
+        {
+            "name": "Rizwan Aslam",
+            "email": "rizwan@codebrisk.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeBrisk\\Helpers\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CodeBrisk\\Helpers\\ServiceProvider"
+            ],
+            "aliases": {
+                "CodeBrisk": "CodeBrisk\\Helpers\\Facade"
+            }
+        }
+    }
+}
