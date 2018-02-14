@@ -20,7 +20,10 @@
     "autoload": {
         "psr-4": {
             "CodeBrisk\\Helpers\\": "src/"
-        }
+        },
+        "files": [
+            "src/GlobalHelper.php"
+        ]
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
