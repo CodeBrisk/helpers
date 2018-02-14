@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/CodeBrisk/helpers/master/src/assets/logo.png" alt="CodeBrisk logo" width="480">
+    <img src="https://codebrisk.com/images/logo.png" alt="CodeBrisk logo" width="480">
 </p>
 
 ## About This Package
