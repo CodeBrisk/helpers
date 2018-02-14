@@ -11,7 +11,6 @@ Route::get('codebrisk/test', function(){
 });
 
 Route::get('codebrisk/user', function(){
-	dd('lol');
 	return user();
 	// return \CodeBrisk\Helpers\Custom::test();
 });
